@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.ninja {
+    flex: 3;
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+}
+
+.ninja button {
+    width: 80%;
+    height: 40px;
+    background-color: burlywood;
+    color: black;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+    justify-content: space-between;  
+    margin-bottom: 50px;  
+}
+
+.header button {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.header .search-bar { /* not sure how I am supposed to center this */
+    width: 40px;
+    length: 100px;
+    align-content: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    padding: 15px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 0px;    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.container {
+    border: 5px solid black;
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: row;
+    align-items: center;
+    height: 250px;
+} 
+
+.left-column {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.right-column {
+    display: inline-flex;
+    flex: 1;
+    height: 150px;
+    border: 5px solid black;
+    margin-left: 30px;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.definition {
+    flex: 5;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 0px;
+    align-items: center; 
+    margin-top: 0px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.right-column button {
+    background-color: forestgreen;
+    font-size: 20px;
+    color: black;
+    width: 300px;
+    height: 50px;   
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+p {
+    font-size: 30px;
+}
